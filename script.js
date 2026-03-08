@@ -1,20 +1,22 @@
-// Scroll animation
+let display = document.getElementById("display")
 
-const cards = document.querySelectorAll('.project-card');
-
-window.addEventListener('scroll', () => {
-
-cards.forEach(card => {
-
-const cardTop = card.getBoundingClientRect().top;
-
-const trigger = window.innerHeight * 0.8;
-
-if(cardTop < trigger){
-card.style.opacity = "1";
-card.style.transform = "translateY(0)";
+function appendValue(value){
+display.value += value
 }
 
-});
+function clearDisplay(){
+display.value = ""
+}
 
-});
+function deleteLast(){
+display.value = display.value.slice(0,-1)
+}
+
+function calculate(){
+try{
+display.value = eval(display.value)
+}
+catch{
+display.value = "Error"
+}
+}

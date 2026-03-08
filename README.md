@@ -1,45 +1,47 @@
-# 💼 Personal Portfolio Website
+# 🧮 Web Calculator Application
 
 ## 📌 Overview
 
-The Personal Portfolio Website is a responsive web application designed to showcase professional skills, projects, and contact information. It serves as an online resume for developers to present their work and technical abilities.
+The Web Calculator is a simple yet functional browser-based application that performs basic arithmetic operations. The project demonstrates how JavaScript can be used to process user inputs and dynamically update the interface.
 
 ## 🚀 Features
 
-* Responsive navigation bar
-* Hero section introducing the developer
-* About section describing professional background
-* Skills section with visual indicators
-* Projects showcase with descriptions
-* Contact form for communication
-* Smooth scrolling and interactive UI elements
+* Basic arithmetic operations:
+
+  * Addition
+  * Subtraction
+  * Multiplication
+  * Division
+* Interactive user interface
+* Clear button to reset calculations
+* Real-time display updates
+* Responsive layout
 
 ## 🛠️ Technologies Used
 
-* **HTML5** – Website structure
-* **CSS3** – Layout design and styling
-* **JavaScript** – Interactive components
+* **HTML5** – Structure of the calculator interface
+* **CSS3** – Layout and styling
+* **JavaScript** – Calculation logic and interaction
 
 ## 📂 Project Structure
 
-portfolio/
+calculator/
 │
 ├── index.html
 ├── style.css
-├── script.js
-└── resume.pdf
+└── script.js
 
 ## ▶️ How to Run the Project
 
-1. Download or clone the repository.
-2. Navigate to the project folder.
-3. Open **index.html** in a web browser.
+1. Download the project files.
+2. Open the project folder.
+3. Launch **index.html** in a web browser.
 
 ## 🎯 Learning Outcomes
 
-* Designing a professional web portfolio
-* Creating responsive layouts using CSS
-* Enhancing user experience with JavaScript interactions
+* Handling user input in JavaScript
+* Implementing arithmetic operations programmatically
+* Designing a functional UI for interactive applications
 
 ## 👨‍💻 Author
 
